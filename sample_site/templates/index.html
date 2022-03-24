@@ -1,5 +1,12 @@
-<link rel="preconnect" href="https://fonts.gstatic.com">
-<link href="https://fonts.googleapis.com/css2?family=Rubik&display=swap" rel="stylesheet">
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>MysteryBlock</title>
+    </head>
+
+    <link rel="preconnect" href="https://fonts.gstatic.com">
+
+    <link href="https://fonts.googleapis.com/css2?family=Rubik&display=swap" rel="stylesheet">
 
 <style>
     * {
@@ -15,13 +22,21 @@
         color: red;
         font-size: 40pt;
     }
-
-    p {
-        font-size: 24pt;
-    }
 </style>
 
 <div>
-    <h1>Welcome!</h1><br>
-    <p>This site has been visited {{ count }} times.</p>
+    <h1>Welcome back Mario, please punch the block to get a coin!</h1><br>
+    <body>
+
+        <form>
+            <button type="button" onClick="audio.play();"> <img src="https://gonintendo.com/uploads/file_upload/upload/71764/nintendo-block.jpg" height ="640" width="640" /></button>
+            <script>
+                const audio = new Audio();
+                audio.src = "MarioCoinSound.mp3";
+            </script>
+        </form>
+
+    
+    </body>
+    
 </div>
