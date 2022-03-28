@@ -1,7 +1,7 @@
 <!DOCTYPE html>
 <html>
     <head>
-        <title>MysteryBlock</title>
+        <title>CoinBlock</title>
     </head>
 
     <link rel="preconnect" href="https://fonts.gstatic.com">
@@ -11,6 +11,10 @@
 <style>
     * {
         font-family: "Rubik", "sans-serif";
+    }
+
+    * {
+         background-image:url('https://www.teahub.io/photos/full/200-2002662_super-mario-land-background.gif'); background-repeat:repeat; //imagte link https://www.teahub.io/photos/full/200-2002662_super-mario-land-background.gif
     }
 
     div {
@@ -27,16 +31,18 @@
 <div>
     <h1>Welcome back Mario, please punch the block to get a coin!</h1><br>
     <body>
-
+        
         <form>
             <button type="button" onClick="audio.play();"> <img src="https://gonintendo.com/uploads/file_upload/upload/71764/nintendo-block.jpg" height ="640" width="640" /></button>
+
             <script>
                 const audio = new Audio();
-                audio.src = "MarioCoinSound.mp3";
+                audio.src = "MarioCoinSound.mp3"; //sound link https://djlunatique.com/mario-coin-sound-sound-effect/
+                
             </script>
         </form>
+       
 
-    
     </body>
     
 </div>
